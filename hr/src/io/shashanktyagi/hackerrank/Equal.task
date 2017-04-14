@@ -1,0 +1,29 @@
+5 Equal
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+12 1
+4
+2 2 3 7
+
+2 2
+
+1
+31 src/io/shashanktyagi/hackerrank
+8 -Xmx256M
+8 Solution
+33 io.shashanktyagi.hackerrank.Equal
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.04.14
+19 Dynamic Programming
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+1
