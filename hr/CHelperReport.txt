@@ -1,3 +1,2 @@
 46 src/io/shashanktyagi/hackerrank/Prime XOR.task
-1
-2
+0
