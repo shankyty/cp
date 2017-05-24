@@ -41,7 +41,7 @@ public class MutaliskEasy {
         tx[moves[i][0]] = max(x[moves[i][0]] - 9, 0);
         tx[moves[i][1]] = max(x[moves[i][1]] - 3, 0);
         tx[moves[i][2]] = max(x[moves[i][2]] - 1, 0);
-        move = min(minimalAttacks(tx) + 1, move);
+        move = min(solve(tx) + 1, move);
       }
       map.put(getKey(x), move);
     }

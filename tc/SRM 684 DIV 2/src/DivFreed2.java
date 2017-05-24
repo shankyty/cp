@@ -25,7 +25,7 @@ public class DivFreed2 {
       }
       for (int j = 1; j <= k; j++) {
         data[flag][j] = sum;
-        for (Integer div : divs.get(j-1)) {
+        for (Integer div : divs.get(j - 1)) {
           data[flag][j] = (data[flag][j] + MOD - data[flag ^ 1][div]) % MOD;
         }
       }

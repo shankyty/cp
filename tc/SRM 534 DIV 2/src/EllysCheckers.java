@@ -14,14 +14,16 @@ public class EllysCheckers {
   }
 
   private boolean solve(int curr, int p, int n) {
-    System.out.println("curr = " + Integer.toBinaryString(curr));
-    if (curr == 1) {
+    System.out.println("curr = [" + Integer.toBinaryString(curr) + "], p = [" + p + "], n = [" + n + "]");
+    if ((curr & 1) == 1) {
+      curr = move(curr, 1, 1);
+    }
+    if (curr == 2) {
       dp[curr] = p;
+    } else if (curr == 0) {
+      dp[curr] = p ^ 1;
     } else {
-      if ((curr & 1) == 1) {
-        curr = curr >> 1;
-      }
-      if (dp[curr] != p || dp[curr] != 2 && curr > 0) {
+      if (dp[curr] == -1) {
         for (int i = 0; i < n; i++) {
           if (checkMoves(curr, i, 1)) {
             if (solve(move(curr, i, 1), p ^ 1, n)) {
@@ -29,7 +31,9 @@ public class EllysCheckers {
               break;
             }
           }
-          if (checkMoves(curr, i, 3) && !checkMoves(curr, i, 2) && !checkMoves(curr, i, 1)) {
+          if (checkMoves(curr, i, 3)
+                  && !checkMoves(curr, i, 2)
+                  && !checkMoves(curr, i, 1)) {
             if (solve(move(curr, i, 3), p ^ 1, n)) {
               dp[curr] = p;
               break;
