@@ -1,0 +1,41 @@
+27 LongestParenthesesSubstring
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+5
+0
+9 (((()))))
+1 8
+1
+1
+9 )((()))()
+1 8
+0
+2
+3 (()
+1 2
+0
+3
+6 )()())
+1 4
+0
+4
+18 (((())))))((()))()
+1 8
+0
+20 src/io/shashanktyagi
+8 -Xmx256M
+4 Main
+44 io.shashanktyagi.LongestParenthesesSubstring
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.06.26
+22 SDEII eCSG - Bangalore
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+0

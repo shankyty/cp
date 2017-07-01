@@ -1,0 +1,27 @@
+14 ModifyTheArray
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+20 1,2,3,4,5,6,10,8
+3
+1
+12 1,2,3,5,6,10
+1
+20 src/io/shashanktyagi
+8 -Xmx256M
+4 Main
+31 io.shashanktyagi.ModifyTheArray
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.06.26
+22 SDEII eCSG - Bangalore
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+0

@@ -1,0 +1,48 @@
+9 Dominator
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+57 2
+5
+0 1 1 0 0
+0 0 0 1 0
+0 0 0 1 0
+0 0 0 0 1
+0 0 0 0 0
+1
+1
+159 Case 1:
++---------+
+|Y|Y|Y|Y|Y|
++---------+
+|N|Y|N|N|N|
++---------+
+|N|N|Y|N|N|
++---------+
+|N|N|N|Y|Y|
++---------+
+|N|N|N|N|Y|
++---------+
+Case 2:
++-+
+|Y|
++-+
+1
+30 src/main/java/io/shashanktyagi
+16 -Xmx256m -Xss64m
+4 Main
+26 io.shashanktyagi.Dominator
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.06.07
+176 Parque Científico UVa Root :: Competitive Programming 3: The New Lower Bound of Programming Contests (Steven & Felix Halim) :: Graph :: Graph Traversal :: Just Graph Traversal
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+0
