@@ -5,15 +5,19 @@ import java.util.Scanner;
 
 public class TaskA {
     public void solve(int testNumber, Scanner in, PrintWriter out) {
-        long n = in.nextLong();
-        long k = in.nextLong();
-        long d = (n / 2) / (k + 1);
-        long c = k * d;
-        long l = n - d - c;
-        out.write(Long.toString(d));
-        out.write(" ");
-        out.write(Long.toString(c));
-        out.write(" ");
-        out.write(Long.toString(l));
+        int n = in.nextInt();
+        int k = in.nextInt();
+        String colors = in.next().toLowerCase();
+        int[] s = new int[26];
+        for (int i = 0; i < n; i++) {
+            s[colors.charAt(i) - 'a']++;
+        }
+        for (int i = 0; i < s.length; i++) {
+            if (s[i] % 2 == 1) {
+                out.write("NO");
+                return;
+            }
+        }
+        out.write("YES");
     }
 }

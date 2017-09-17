@@ -1,0 +1,40 @@
+23 C - Multi-judge Solving
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+10 3 3
+2 1 9
+
+1 1
+0
+1
+7 1 1
+10
+
+2 3
+
+0
+2
+19 6 3
+2 1 9 20 40 80
+
+1 1
+1
+30 src/main/java/io/shashanktyagi
+8 -Xmx256M
+4 Main
+22 io.shashanktyagi.TaskC
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.07.16
+31 Educational Codeforces Round 25
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+0

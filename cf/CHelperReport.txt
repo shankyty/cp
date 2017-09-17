@@ -1,3 +1,2 @@
-50 src/main/java/io/shashanktyagi/C - Sofa Thief.task
-1
+53 src/main/java/io/shashanktyagi/A - Generous Kefa.task
 0

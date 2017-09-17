@@ -17,10 +17,9 @@ public class JumpDistancesOnTreeEasy {
                 }
             }
         }
-        for (int i = 0; i < p.length; i++) {
-            for (int j = 0; j < p.length; j++) {
+        int[][] dp = new int[S.length][p.length];
+        for (int i = 0; i < S.length; i++) {
 
-            }
         }
         return null;
     }

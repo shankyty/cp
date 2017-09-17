@@ -1,2 +1,3 @@
-46 src/io/shashanktyagi/hackerrank/Prime XOR.task
+52 src/io/shashanktyagi/hackerrank/Super Mancunian.task
+1
 0

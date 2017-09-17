@@ -1,0 +1,42 @@
+24 D - Suitable Replacement
+6 SINGLE
+8 STANDARD
+-1
+8 STANDARD
+-1
+3
+0
+8 ?aa?
+ab
+
+5 baab
+
+1
+1
+8 ??b?
+za
+
+5 azbz
+
+1
+2
+13 abcd
+abacaba
+
+5 abcd
+
+1
+30 src/main/java/io/shashanktyagi
+8 -Xmx256M
+4 Main
+22 io.shashanktyagi.TaskD
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.07.16
+31 Educational Codeforces Round 25
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+0

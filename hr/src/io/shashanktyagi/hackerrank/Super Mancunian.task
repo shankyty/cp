@@ -1,0 +1,33 @@
+15 Super Mancunian
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+40 4 6
+1 2 1
+1 3 3
+1 4 7
+2 3 2
+2 4 3
+3 4 3
+
+4 3 3
+
+1
+31 src/io/shashanktyagi/hackerrank
+8 -Xmx256M
+8 Solution
+42 io.shashanktyagi.hackerrank.SuperMancunian
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2017.07.02
+11 HourRank 22
+1
+17 java.util.Scanner
+19 java.io.PrintWriter
+0
+1
